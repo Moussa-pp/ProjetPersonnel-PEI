@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 125%;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar{
+    width: 90%;
+    margin: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.nav-container {
+    padding: 20px 0;
+}
+
+.nav-container h2{
+    color: rgb(13, 13, 14);
+}
+
+.nav-container .nav {
+    justify-self: flex-end;
+    display: flex;
+}
+
+.nav-container .nav a {
+    margin: 0 20px;
+    color: aliceblue;
+    display: list-item;
+}
+
+.nav-container .nav .active{
+    background: #333 ;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.header{
+    width: 85%;
+    margin: 70px auto;
+    position: relative;
+    left: 50px;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.container img{
+    width: 100%;
+    margin: 70px auto;
+    position: relative;
+    left: 100%;
+}
+
+.container div h3{
+    font-size: 70%;
+}
+
+.container div h3::after{
+    content: "";
+    position: absolute;
+    background-color: aqua;
+    height: 4px;
+    width: 130px;
+    top: 51%;
+    left: 15%;
+}
+
+.container div p{
+    margin: 20px 0;
+    position: absolute;
+    top: 50;
+    color: aliceblue;
+    padding: 20px;
+    border: 20px;
+    margin: 20px;
+    background-color: #333;
+    
+}
+
+.contain div a{
+    padding: 15px;
+    background: black;
+    margin: 20px;
+    display: inline-block;
+    color:aliceblue;
+    border-radius: 20px;
+}
+
+.main-container div img {
+    position: absolute;
+    top: -10%;
+    left: 45%;
+    opacity: 100%;
+    z-index: -1;
+}
+
+
+.main-container div li{
+    position: absolute;
+    top: 50;
+    color: aliceblue;
+    padding: 20px;
+    border: 20px;
+    margin: 20px;
+    background-color: #333;
+}
+
+.box {
+    position: absolute;
+    top: -150;
+    color: aliceblue;
+    padding: 20px;
+    border: 20px;
+    margin: 20px;
+    background-color: #333;
+}
+
+.main-container div li {
+    position: absolute;
+    top: 50;
+    color: aliceblue;
+    padding: 20px;
+    border: 20px;
+    margin: 20px;
+    background-color: #333;
+}
+
+
+.content {
+    min-height: 100%; /* Ensure the content takes full height */
+    padding-bottom: 50px; /* Space for footer */
+}
+
+/*
+.footer {
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: aliceblue;
+    display: flex;
+}
+*/
+
+
+
+.primary-footer {
+    margin-top: 150px;
+    width: 100%;
+    color: rgb(255, 240, 255);
+    background: #333;
+    padding: 100px 15%;
+    display: flex;
+    position: absolute;
+    top: 550px;
+}
+
+.primary-footer {
+    text-align: center;
+}
+
+.col-2 {
+    flex-grow: 2;
+}
+
+.primary-footer div h2{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.primary-footer .main-container{
+    display: flex;
+    grid-template-columns: repeat(4,1);
+}
+
+form input {
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    position: relative;
+
+
+}
+
+/* Not needed 
+.col-1 a{
+    display: block;
+    text-decoration: double;
+    color: #333;
+    margin-bottom: 10px;
+
+
+}
+
+
+/* Footer */
